@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Walle App",
+  title: "test App",
   description: "Tets react framework (next js)",
 };
 
