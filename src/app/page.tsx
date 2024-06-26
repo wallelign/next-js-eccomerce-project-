@@ -1,10 +1,17 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Head from "next/head";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>new ethiopia music</div>
-     <Button className=" hover:bg-gray-600 text-center "> Submit</Button>
-    </main>
+    <>
+    <Head>
+      <title>Home Page</title>
+      <meta name="description" content="home page" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </Head>
+    <div>
+       <button>submit</button>
+    </div>
+  </>
   );
 }

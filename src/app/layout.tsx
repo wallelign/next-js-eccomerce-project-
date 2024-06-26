@@ -6,9 +6,8 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"],variable: "--font-sans", });
 
 export const metadata: Metadata = {
-  title: "test App",
-
-  description: "Tets react framework (next js)",
+  title: "ecommerce",
+  description: "Eccomerce Paltform| Next js eccomerce project",
 };
 
 export default function RootLayout({
